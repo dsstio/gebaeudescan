@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/easy-autocomplete/jquery.easy-autocomplete.min.js"></script>
+	<script type="text/javascript" src="assets/leaflet/leaflet.js"></script>
+	<script type="text/javascript">
+	/*
+		- Suche
+		*/
+
+
+		$(function () {
+			var map = L.map('map', {
+				attributionControl: false,
+				center: [52.517, 13.39],
+				zoom: 13
+			});
+
+			L.control.attribution({position: 'bottomleft'}).addTo(map);
+
+			L.tileLayer('https://maps.dsst.io/berlin_tilemill_neu/{z}/{x}/{y}.png', {
+				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+			}).addTo(map);
+
+			$.getJSON('assets/marker.json', function (markers) {
+				var iconNormal = L.icon({
+					iconUrl:       'assets/leaflet/images/normal-icon.png',
+					iconRetinaUrl: 'assets/leaflet/images/normal-icon-2x.png',
+					shadowUrl:     'assets/leaflet/images/marker-shadow.png',
+					iconSize:      [25, 41],
+					iconAnchor:    [12, 41],
+					popupAnchor:   [1, -34],
+					tooltipAnchor: [16, -28],
+					shadowSize:    [41, 41]
+				});
+				var iconPrio = L.icon({
+					iconUrl:       'assets/leaflet/images/prio-icon.png',
+					iconRetinaUrl: 'assets/leaflet/images/prio-icon-2x.png',
+					shadowUrl:     'assets/leaflet/images/marker-shadow.png',
+					iconSize:      [25, 41],
+					iconAnchor:    [12, 41],
+					popupAnchor:   [1, -34],
+					tooltipAnchor: [16, -28],
+					shadowSize:    [41, 41]
+				});
+
+				var todos = [];
+				var blockSize = 20;
+				for (var i = 0; i < markers.length; i += blockSize) {
+					var block = markers.slice(i, i+blockSize);
+					todos.push(block);
+				}
+
+				var schulen = [];
+				markers.forEach(function (marker) {
+					marker.schulen.forEach(function (schule) {
+						schule.text = schule.schulname + ' - ' + schule.strasse + ', ' + schule.plz;
+						schule.marker = marker;
+						schulen.push(schule);
+					})
+				})
+
+				$('#searchbox').show();
+				$('#search').easyAutocomplete({
+					data: schulen,
+					list: {
+						sort:  { enabled: true },
+						match: { enabled: true },
+						onChooseEvent: function () {
+							var data = $('#search').getSelectedItemData();
+							if (!data || !data.marker || !data.marker.m) return;
+							data.marker.m.openPopup();
+						}
+					},
+					loggerEnabled: false,
+					getValue: 'text',
+					placeholder: 'Nach Schule/Adresse suchen'
+				});
+
+				start();
+
+				function start() {
+					if (todos.length > 0) {
+						var block = todos.pop();
+						block.forEach(function (marker) {
+							var html = marker.schulen.map(function (schule) {
+								return '<div class="schule">'+[
+									'<p class="name">'+schule.schulname+'</p>',
+									schule.schulname.toLowerCase().indexOf(schule.type.toLowerCase()) >= 0 ? '' : '<p class="type">'+schule.type+'</p>',
+									'<p class="address">'+schule.strasse+', '+schule.plz+', Berlin</p>',
+									'<table>',
+									'<tr class="kosten"><th>Gesamtkosten: </th><td>'+formatEuro(schule.gesamtkosten)+'</td></tr>',
+									schule.prio1 ? '<tr class="prio1"><th>Davon höchste Priorität: </th><td>'+formatEuro(schule.prio1)+'</td></tr>' : '',
+									'</table>'
+								].join('')+'</div>';
+							}).join('');
+							marker.m = L.marker([marker.x, marker.y], {icon: marker.prio1 ? iconPrio : iconNormal});
+							marker.m
+								.addTo(map)
+								.bindPopup(html);
+						})
+						setTimeout(start, 1);
+					}
+				}
+
+				function formatEuro(v) {
+					v = v.toFixed(0);
+
+					// v von hinten in 3-Zeichen-Blöcken durchgehen und mit einem &thinsp; trennen.
+					var s = '';
+					while (v.length > 3) {
+						s = ' ' + v.substr(-3) + s
+						v = v.substr(0, v.length-3);
+					}
+					return v+s+' €';
+				}
+			})
+		})
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="assets/leaflet/leaflet.css">
+	<link rel="stylesheet" type="text/css" href="assets/easy-autocomplete/easy-autocomplete.min.css">
+
+	<style type="text/css">
+		html, body {
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			font-family: sans-serif;
+			font-size: 12px;
+		}
+
+		#wrapper {
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+
+		#map {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+		}
+
+		#searchbox {
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			border-radius: 6px;
+			background: rgba(255,255,255,0.9);
+			box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+			border: none;
+			padding: 0;
+			z-index: 1000;
+			display: none;
+		}
+			#search {
+				width: 400px;
+			}
+
+			#searchbox ul {
+				top: 10px;
+				box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+				border: 1px solid #bbb;
+			}
+
+			#searchbox ul li, #searchbox ul .eac-category {
+				background: inherit;
+				border: none
+				display: block;
+				font-size: 12px;
+				font-weight: normal;
+				padding: 4px 12px;
+			}
+
+		#legend {
+			position: absolute;
+			right: 5px;
+			bottom: 5px;
+			border-radius: 6px;
+			background: rgba(255,255,255,0.9);
+			box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+			border: 1px solid #bbb;
+			padding: 6px 8px;
+			z-index: 1000;
+			font-family: sans-serif;
+			font-size: 12px;
+		}
+
+			#legend img {
+				vertical-align: -5px;
+				margin: 0px 3px 0px 0px;
+			}
+
+		.leaflet-popup-content {
+			margin: 15px 15px -5px;
+		}
+			.leaflet-popup-content div.schule {
+				margin: 0 0 20px;
+				padding: 0;
+			}
+			.leaflet-popup-content p {
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
+
+				.leaflet-popup-content p.name {
+					font-weight: bold;
+				}
+				.leaflet-popup-content p.type, .leaflet-popup-content p.address {
+					color: #888;
+				}
+
+
+				.leaflet-popup-content table {
+					margin: 5px 0px 0px;
+				}
+				.leaflet-popup-content tr, .leaflet-popup-content th, .leaflet-popup-content td {
+					margin: 0px;
+					padding: 0px;
+				}
+				.leaflet-popup-content th {
+					font-weight: bold;
+					text-align: left;
+				}
+				.leaflet-popup-content td {
+					text-align: right;
+				}
+				.leaflet-popup-content .prio1 {
+					color: #cc142a;
+				}
+	</style>
+</head>
+<body>
+	<div id="wrapper"></div>
+		<div id="map"></div>
+		<div id="legend">
+			<img src="assets/leaflet/images/normal-icon-2x.png" width="12"> Schule mit Angabe zum Sanierungsbedarf &nbsp;  &nbsp;  &nbsp; <img src="assets/leaflet/images/prio-icon-2x.png" width="12"> Sanierungsbedarf mit höchster Priorität
+		</div>
+		<div id="searchbox">
+			<input id="search"/>
+		</div>
+	</div>
+</body>
+</html>

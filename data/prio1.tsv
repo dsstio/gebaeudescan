@@ -1,0 +1,112 @@
+nr	bezirk	stnr	bsn	schulname	plz	strasse	prio1kosten
+01	Mitte	01K03-01	01K03	Ernst-Reuter-Schule	13355	Stralsunder Str. 57	€15'920'000
+01	Mitte	01G37-01	01G37	Heinrich-Seidel-Grundschule	13355	Ramlerstr. 9-10	€8'940'000
+01	Mitte	01G45-01	01G45	Leo-Lionni-Grundschule	13353	Müllerstr. 158	€8'930'000
+01	Mitte	01K08-01	01K08	Schule am Schillerpark (Integrierte Sekundarschule)	13349	Ofener Str. 6	€8'850'000
+01	Mitte	01Y08-01	01Y08	Lessing-Gymnasium	13349	Schöningstr. 17	€8'770'000
+01	Mitte	01G43-01	01G43	Albert-Gutzmann-Schule (Grundschule)	13357	Orthstr. 1	€7'440'000
+01	Mitte	01G25-01	01G25	Rudolf-Wissell-Grundschule	13357	Ellerbeker Str. 7-8	€6'580'000
+01	Mitte	01G18-01	01G18	Carl-Bolle-Grundschule	10551	Waldenserstr. 20-21	€6'460'000
+01	Mitte	01G40-01	01G40	Möwensee-Grundschule	13351	Afrikanische Str. 123-125	€6'110'000
+01	Mitte	01G47-01	01G47	Miriam-Makeba-Grundschule	10555	Zinzendorfstr. 15-16	€5'360'000
+01	Mitte	01G32-01	01G32	Carl-Kraemer-Grundschule	13359	Zechliner Str. 4	€5'260'000
+02	Friedrichshain-Kreuzberg	02G18-01	02G18	Nürtingen-Grundschule	10997	Mariannenplatz 28	€12'410'000
+02	Friedrichshain-Kreuzberg	02G16-01	02G16	Lenau-Grundschule	10961	Nostitzstr. 60	€11'630'000
+02	Friedrichshain-Kreuzberg	02Y08-01	02Y08	Hermann-Hesse-Oberschule	10967	Böckhstr. 16	€10'030'000
+02	Friedrichshain-Kreuzberg	02K04-02	02K04	Lina-Morgenstern-Schule (Gemeinschaftsschule)	10961	Gneisenaustr. 7	€9'920'000
+02	Friedrichshain-Kreuzberg	02G21-01	02G21	Reinhardswald-Grundschule	10961	Gneisenaustr. 73-74	€9'370'000
+02	Friedrichshain-Kreuzberg	02S02-01	02S02	Gustav-Meyer-Schule	10999	Kohlfurter Str. 22	€9'190'000
+02	Friedrichshain-Kreuzberg	02K08-01	02K08	Refik-Veseli-Schule (Integrierte Sekundarschule)	10997	Skalitzer Str. 55	€9'160'000
+02	Friedrichshain-Kreuzberg	02Y03-01	02Y03	Heinrich-Hertz-Oberschule	10247	Rigaer Str. 81-82	€7'050'000
+02	Friedrichshain-Kreuzberg	02G22-01	02G22	Jens-Nydahl-Grundschule	10999	Kohlfurter Str. 20	€6'720'000
+02	Friedrichshain-Kreuzberg	02Y06-02	02Y06	Leibniz-Gymnasium	10961	Schleiermacherstr. 23	€6'660'000
+02	Friedrichshain-Kreuzberg	02G23-01	02G23	Fichtelgebirge-Grundschule	10997	Görlitzer Ufer 2	€6'580'000
+02	Friedrichshain-Kreuzberg	02G12-01	02G12	Kurt-Schumacher-Grundschule	10969	Puttkamerstr. 19	€6'290'000
+02	Friedrichshain-Kreuzberg	02K02-01	02K02	Carl-von-Ossietzky-Schule (Gemeinschaftsschule)	10961	Blücherstr. 46	€5'810'000
+02	Friedrichshain-Kreuzberg	02K10-01	02K10	Ferdinand-Freiligrath-Schule (Integrierte Sekundarschule)	10961	Bergmannstr. 64	€5'780'000
+02	Friedrichshain-Kreuzberg	02G02-02	02G02	Hausburg-Grundschule	10249	Hausburgstr. 20	€5'530'000
+02	Friedrichshain-Kreuzberg	02G24-01	02G24	Otto-Wels-Grundschule	10969	Alexandrinenstr. 12	€5'150'000
+03	Pankow	03Y14-03	03Y14	Primo-Levi-Gymnasium	13086	Pistoriusstr. 133	€12'130'000
+03	Pankow	03K07-01	03K07	Tesla-Schule (Gemeinschaftsschule)	10407	Rudi-Arndt-Str. 18	€9'900'000
+03	Pankow	03K10-01	03K10	Hufeland-Schule (Integrierte Sekundarschule)	13125	Walter-Friedrich-Str. 16-18	€8'790'000
+03	Pankow	03Y15-01	03Y15	Max-Delbrück-Gymnasium	13156	Kuckhoffstr. 2-22	€8'180'000
+03	Pankow	03K10-02	03K10	Hufeland-Schule (Integrierte Sekundarschule)	13125	Walter-Friedrich-Str. 16-18	€7'630'000
+03	Pankow	03G17-02	03G17	Grundschule am Weißen See	13086	Amalienstr. 6	€7'510'000
+03	Pankow	03Y14-02	03Y14	Primo-Levi-Gymnasium	13086	Pistoriusstr. 133	€7'470'000
+03	Pankow	03G11-01	03G11	Schule am Falkplatz (Grundschule)	10437	Gleimstr. 49	€7'430'000
+03	Pankow	03K04-01	03K04	Gustave-Eiffel-Schule	10409	Hanns-Eisler-Str. 78-80	€6'410'000
+03	Pankow	03G14-01	03G14	Bornholmer Grundschule	10439	Ibsenstr. 17	€6'380'000
+03	Pankow	03G02-01	03G02	Heinrich-Roller-Grundschule	10405	Heinrich-Roller-Str. 18	€5'140'000
+03	Pankow	03G36-01	03G36	Elisabeth-Christinen-Grundschule	13156	Lindenberger Str. 12	€5'070'000
+04	Charlottenburg-Wilmersdorf	04G23-02	04G23	Alt-Schmargendorf-Grundschule	14199	Reichenhaller Str. 8	€7'770'000
+04	Charlottenburg-Wilmersdorf	04Y01-01	04Y01	Schiller-Gymnasium	10625	Schillerstr. 125-127	€7'350'000
+04	Charlottenburg-Wilmersdorf	04Y07-01	04Y07	Friedrich-Ebert-Gymnasium	10713	Blissestr. 22	€6'690'000
+05	Spandau	05K02-01	05K02	Carlo-Schmid-Oberschule (Integrierte Sekundarschule)	13581	Lutoner Str. 15-19	€12'710'000
+05	Spandau	05K01-01	05K01	Martin-Buber-Oberschule (Integrierte Sekundarschule)	13589	Im Spektefeld 33	€12'140'000
+05	Spandau	05K03-01	05K03	Bertolt-Brecht-Oberschule (Integrierte Sekundarschule)	13595	Wilhelmstr. 10	€10'580'000
+05	Spandau	05K05-01	05K05	B.-Traven-Gemeinschaftsschule	13583	Recklinghauser Weg 26-32	€10'320'000
+05	Spandau	05Y02-01	05Y02	Kant-Gymnasium	13585	Bismarckstr. 54	€10'120'000
+05	Spandau	05Y04-01	05Y04	Carl-Friedrich-von-Siemens-Gymnasium	13629	Jungfernheideweg 79	€8'450'000
+05	Spandau	05K08-01	05K08	Schule an der Haveldüne (Integrierte Sekundarschule)	13595	Jaczostr. 53-67	€7'830'000
+05	Spandau	05G03-02	05G03	Birken-Grundschule	13585	Hügelschanze 8-9	€6'600'000
+05	Spandau	05G15-01	05G15	Askanier-Grundschule	13583	Borkzeile 34	€5'880'000
+05	Spandau	05G13-01	05G13	Bernd-Ryke-Grundschule	13599	Daumstr. 12	€5'310'000
+05	Spandau	05G18-02	05G18	Grundschule im Beerwinkel	13589	Im Spektefeld 31	€5'160'000
+06	Steglitz-Zehlendorf	06Y01-01	06Y01	Schadow-Gymnasium	14163	Beuckestr. 27-29	€20'090'000
+06	Steglitz-Zehlendorf	06K01-01	06K01	John-F.-Kennedy-Schule	14167	Teltower Damm 87-93	€15'540'000
+06	Steglitz-Zehlendorf	06K04-01	06K04	Bröndby-Schule (Integrierte Sekundarschule)	12249	Dessauerstr. 63	€15'120'000
+06	Steglitz-Zehlendorf	06Y06-01	06Y06	Beethoven-Oberschule	12249	Barbarastr. 9	€14'610'000
+06	Steglitz-Zehlendorf	06Y02-01	06Y02	Droste-Hülshoff-Oberschule	14165	Schönower Str. 8	€13'340'000
+06	Steglitz-Zehlendorf	06K02-01	06K02	Wilma-Rudolph-Schule (Integrierte Sekundarschule)	14169	Am Hegewinkel 2A	€13'210'000
+06	Steglitz-Zehlendorf	06K09-01	06K09	Gail-S.-Halvorsen-Integrierte Sekundarschule	14195	Im Gehege 6	€10'990'000
+06	Steglitz-Zehlendorf	06G25-01	06G25	Clemens-Brentano-Grundschule	12205	Kommandantenstr. 83-84	€10'780'000
+06	Steglitz-Zehlendorf	06Y10-01	06Y10	Lilienthal-Gymnasium	12203	Ringstr. 2-3	€10'290'000
+06	Steglitz-Zehlendorf	06Y08-01	06Y08	Hermann-Ehlers-Oberschule	12169	Elisenstr. 3-4	€10'150'000
+06	Steglitz-Zehlendorf	06Y11-01	06Y11	Goethe-Gymnasium Lichterfelde	12205	Drakestr. 72-75	€9'410'000
+06	Steglitz-Zehlendorf	06Y04-01	06Y04	Dreilinden-Gymnasium	14109	Dreilindenstr. 49	€9'320'000
+06	Steglitz-Zehlendorf	06Y05-01	06Y05	Werner-von-Siemens-Oberschule	14129	Beskidenstr. 3	€9'310'000
+06	Steglitz-Zehlendorf	06G02-01	06G02	Süd-Grundschule	14165	Claszeile 56	€9'290'000
+06	Steglitz-Zehlendorf	06G07-01	06G07	Zinnowwald-Grundschule	14163	Wilskistr. 78	€9'090'000
+06	Steglitz-Zehlendorf	06Y07-01	06Y07	Paulsen-Gymnasium	12163	Gritznerstr. 57	€8'930'000
+06	Steglitz-Zehlendorf	06G23-01	06G23	Kronach-Grundschule	12203	Moltkestr. 24-26	€8'280'000
+06	Steglitz-Zehlendorf	06G31-01	06G31	Grundschule an der Bäke	12203	Haydnstr. 15	€8'200'000
+06	Steglitz-Zehlendorf	06G03-02	06G03	Johannes-Tews-Grundschule	14129	Wasgenstr. 50	€7'440'000
+06	Steglitz-Zehlendorf	06K03-02	06K03	Kopernikus-Schule (Integrierte Sekundarschule)	12163	Lepsiusstr. 24-28	€7'190'000
+06	Steglitz-Zehlendorf	06S02-01	06S02	Biesalski-Schule	14195	Hüttenweg 40	€7'170'000
+06	Steglitz-Zehlendorf	06Y12-01	06Y12	Willi-Graf-Gymnasium	12207	Ostpreußendamm 166	€7'090'000
+06	Steglitz-Zehlendorf	06K06-01	06K06	Anna Essinger Gemeinschaftsschule	12203	Tietzenweg 101	€7'000'000
+06	Steglitz-Zehlendorf	06G15-01	06G15	Dunant-Grundschule	12163	Gritznerstr. 19-23	€5'880'000
+06	Steglitz-Zehlendorf	06S05-01	06S05	J.-A.-Zeune-Schule für Blinde und Berufsfachschule Dr. Silex	12165	Rothenburgstr. 14	€5'830'000
+06	Steglitz-Zehlendorf	06G24-01	06G24	Grundschule unter den Kastanien	12209	Kastanienstr. 6 -8	€5'770'000
+06	Steglitz-Zehlendorf	06Y13-01	06Y13	Gymnasium Steglitz	12169	Heesestr. 15	€5'540'000
+07	Tempelhof-Schöneberg	07Y02-01	07Y02	Rückert-Gymnasium	10825	Mettestr. 8	€16'950'000
+07	Tempelhof-Schöneberg	07K05-01	07K05	Solling-Schule	12277	Alt-Marienfelde 52	€13'740'000
+07	Tempelhof-Schöneberg	07K07-01	07K07	Johanna-Eck-Schule (Integrierte Sekundarschule)	12105	Ringstr. 103-106	€13'340'000
+07	Tempelhof-Schöneberg	07Y09-01	07Y09	Georg-Büchner-Gymnasium	12305	Lichtenrader Damm 224	€13'330'000
+07	Tempelhof-Schöneberg	07G16-01	07G16	Ruppin-Grundschule	14197	Offenbacher Str. 5A	€12'860'000
+07	Tempelhof-Schöneberg	07K09-01	07K09	Gustav-Langenscheidt-Schule	10823	Belziger Str. 43-51	€12'540'000
+07	Tempelhof-Schöneberg	07Y06-01	07Y06	Askanisches Gymnasium	12103	Kaiserin-Augusta-Str. 19-20	€12'030'000
+07	Tempelhof-Schöneberg	07G24-01	07G24	Tempelherren-Grundschule	12101	Boelckestr. 58-60	€11'680'000
+07	Tempelhof-Schöneberg	07K10-01	07K10	Friedrich-Bergius-Schule	12159	Perelsplatz 6-9	€8'750'000
+07	Tempelhof-Schöneberg	07G22-01	07G22	Paul-Klee-Grundschule	12105	Konradinstr. 15-17	€8'260'000
+07	Tempelhof-Schöneberg	07G19-01	07G19	Paul-Simmel-Grundschule	12099	Felixstr. 26-58	€7'990'000
+07	Tempelhof-Schöneberg	07K06-01	07K06	Georg-von-Giesche-Schule	10779	Hohenstaufenstr. 47-48	€7'880'000
+07	Tempelhof-Schöneberg	07Y07-01	07Y07	Eckener-Gymnasium	12105	Kaiserstr. 17-21	€7'740'000
+07	Tempelhof-Schöneberg	07G15-01	07G15	Fläming-Grundschule	12161	Illstr. 4-6	€7'250'000
+07	Tempelhof-Schöneberg	07G34-01	07G34	Marienfelder Schule (Grundschule)	12279	Erbendorfer Weg 13	€6'730'000
+07	Tempelhof-Schöneberg	07G13-01	07G13	Neumark-Grundschule	10783	Steinmetzstr. 46-50	€6'420'000
+07	Tempelhof-Schöneberg	07G10-01	07G10	Teltow-Grundschule	10827	Feurigstr. 57	€6'160'000
+07	Tempelhof-Schöneberg	07G23-01	07G23	Schätzelberg-Grundschule	12109	Wolfsburger Weg 13-19	€5'840'000
+07	Tempelhof-Schöneberg	07G01-01	07G01	Spreewald-Grundschule	10781	Pallasstr. 15	€5'530'000
+07	Tempelhof-Schöneberg	07G32-01	07G32	Bruno-H.-Bürgel-Grundschule	12305	Rackebüller Weg 70	€5'340'000
+07	Tempelhof-Schöneberg	07G18-01	07G18	Grundschule am Barbarossaplatz	10781	Barbarossaplatz 5	€5'330'000
+07	Tempelhof-Schöneberg	07S04-01	07S04	Marianne-Cohn-Schule	12099	Holzmannstr. 7	€5'140'000
+08	Neukölln	08G35-01	08G35	Schule in der Köllnischen Heide (Grundschule)	12057	Hänselstr. 6	€6'500'000
+08	Neukölln	08G34-01	08G34	Lisa-Tetzner-Schule (Grundschule)	12353	Hasenhegerweg 12	€6'390'000
+09	Treptow-Köpenick	09G25-01	09G25	Müggelschlößchen-Schule (Grundschule)	12559	Alfred-Randt-Str. 56	€5'360'000
+12	Reinickendorf	12Y08-01	12Y08	Thomas-Mann-Gymnasium	13439	Königshorster Str. 10	€14'300'000
+12	Reinickendorf	12Y01-01	12Y01	Friedrich-Engels-Gymnasium	13407	Emmentaler Str. 67	€10'740'000
+12	Reinickendorf	12K02-01	12K02	Bettina-von-Arnim-Schule	13435	Senftenberger Ring 49	€9'300'000
+12	Reinickendorf	12S06-01	12S06	Toulouse-Lautrec-Schule	13509	Miraustr. 120-126	€8'940'000
+12	Reinickendorf	12K05-01	12K05	Gustav-Freytag-Schule (Integrierte Sekundarschule)	13409	Breitkopfstr. 66-80	€6'110'000
+12	Reinickendorf	12G22-01	12G22	Gustav-Dreyer-Grundschule	13467	Freiherr-vom-Stein-Str. 31	€5'560'000

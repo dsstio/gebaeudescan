@@ -1,0 +1,51 @@
+01,Mi,1,01G24,Gottfried-Röhl-G,"3,5",,"3,5","1,5","5,0",,"5,0","1,5",,,"1,5",,,,,,,,,,"6,0",,,,,,Erweiterung wird geprüft
+01,Mi,1,01G40,Möwensee-G,"3,0",,"3,0","1,5","4,5",,"4,5","1,5",,,"1,5","1,5",,,,,"3,5",,,,"3,5",,,,,,
+01,Mi,1,01G42,Anna-Lindh-G,"4,5",,"4,5","1,5","6,0",,"6,0","1,5",,,"1,5","1,5",,,,,"3,5",,,,"3,5",,,,,,Erweiterung wird geprüft
+01,Mi,2,01G36,Andersen-G,"2,5",,"2,5","1,0","3,5",,"3,5","1,0",,,"1,0",,,,,,,,,,"6,0",,,,,,Erweiterung wird geprüft
+01,Mi,2,01Gn05,Gotenburger Str. 7 - 9,,,,"3,0","3,0",,"3,0","3,0",,"3,0",,,,,,,,,,,,,,,,,Verfügbar nach Aufgabe derzeitiger Nutzung
+01,Mi,3,01G28,Brüder-Grimm-G,"3,5",,"3,5","1,0","4,5",,"4,5","1,0","1,0",,,,,,,,,,,,,,,,,,Verfügbar nach Aufgabe derzeitiger Nutzung
+01,Mi,3,01G31,Wedding-G,"4,0",,"4,0","1,0","5,0",,"5,0","1,0",,,"1,0",,,,,,,,,,"6,0",,,,,,Erweiterung wird geprüft
+01,Mi,3,01G43,Albert-Gutzmann-S,"3,0",,"3,0","1,0","4,0",,"4,0","1,0",,,"1,0",,,,,,,,,,"6,0",,,,,,Erweiterung wird geprüft
+01,Mi,3,01G45,Leo-Lionni-G,"3,5","0,5","4,0",,"4,0",,"4,0","0,5","0,5",,,,,,,,,,,,,,,,,,
+01,Mi,4,01K04,H.-v.-Stephan GemS,,"2,0","2,0",,"2,0",,"2,0","2,0",,,"2,0","2,0",,,,,,"3,3",,,,,,,,,Gemeinschaftsschule Aufbau Grundstufe
+01,Mi,4,01Kn01,SISB,,,,"2,0","2,0",,"2,0","2,0",,"2,0",,,,,,,,,,,,,x,,,,Verfügbar nach Aufgabe derzeitiger Nutzung
+01,Mi,5,01G11,Kurt-Tucholsky-G,"4,5",,"4,5","1,5","6,0",,"6,0","1,5",,,"1,5",,,,x,,,,,,,,,,,,Erweiterung um Standort Kruppstr. 14 A
+01,Mi,6,01Gn02,G Chaussee/Boyenstr.,,"2,0","2,0","2,0","4,0",,"4,0","4,0",,,"2,0","2,0","2,0",,x,,,,,"4,5","19,5",x,,,x,,"1. BA MEB, 2. BA Neubau, Bedarfsprogr. 24,0 Mio. €"
+01,Mi,7,01G02,Papageno-G,"2,0","1,5","3,5",,"3,5",,"3,5","1,5",,,"1,5","1,5",,,,,,"3,3",,,,,,,,,
+01,Mi,7,01G38,Gustav-Falke-G,"3,5","2,0","5,5",,"5,5",,"5,5","2,0",,,"2,0","2,0",,,,,"5,0",,,,"5,0",,,,,,
+01,Mi,8,01G44,Allegro-G,"4,5","-1,0","3,5",,"3,5",,"3,5","-1,0","-1,0",,,,,,,,,,,,,,,,,,Kita-Nutzung
+01,Mi,9,01G08,G a. Brandenburger Tor,"3,0","1,5","4,5",,"4,5",,"4,5","1,5","1,5",,,,,,,,,,,,,,,,,,Bezirk prüft Abbau Fremdnutzung
+01,Mi,10,01G10,City-G,"2,5",,"2,5","1,0","3,5",,"3,5","1,0",,,"1,0",,,,x,,,,,,"6,0",,,,,,Erweiterung wird geprüft
+01,Mi,10,01Gn01,G Adalbertstr. 53,,,,"4,0","4,0",,"4,0","4,0",,"4,0",,,,,,,,,,,"20,0",,,,,,Fördermöglichkeiten werden geprüft
+01,Mi,11,01G07,GutsMuths-G,"2,5",,"2,5",,"2,5","2,0","4,5","2,0",,,"2,0",,,,,,,,,,"12,0",,,,,,Erweiterung wird geprüft
+02,Fr-Kr,I,02G12,Kurt-Schumacher-G,"2,0","2,0","4,0",,"4,0",,"4,0","2,0","2,0",,,,,,,,,,,,,,,,,,Erweiterung nach Sanierung
+02,Fr-Kr,I,02G32,Clara-Grunwald-G,"2,5","0,5","3,0",,"3,0",,"3,0","0,5",,,"0,5",,,,,,,,,,,,,,,,Bezirk plant Erweiterung
+02,Fr-Kr,III,02G18,Nürtingen-G,"6,0","-2,0","4,0",,"4,0",,"4,0","-2,0","-2,0",,,,,,,,,,,,,,,,,,Kapazität für andere schulische Nutzung
+02,Fr-Kr,V,02Gn02,G Pufendorfstr. 12,,"1,5","1,5","1,5","3,0",,"3,0","3,0",,,,"1,5","1,5",,x,"4,7",,,,,"20,0",x,,,x,,"1. BA MEB, 2. BA Neubau"
+02,Fr-Kr,VI,02G02,Hausburg-G,"4,0",,"4,0",,"4,0",,"4,0","0,0",,,,,,,,,,,,,,,,,,,"Beendigung VV mit Pa, Kapazität ca. 1 Zug"
+02,Fr-Kr,VI,02G04,Pettenkofer-G,"3,5","0,5","4,0",,"4,0",,"4,0","0,5",,,"0,5",,,,,,,,,"1,3",,,,,,,Sanierung Direktorenhaus
+02,Fr-Kr,VII,02G36,Blumen-Grundschule,"4,5",,"4,5",,"4,5","2,0","6,5","2,0",,,"2,0",,,,,,,,,,"12,0",,,,,,Aufteilung in 2 G prüfen
+02,Fr-Kr,VIII,02Gn03,G Corinthstr.,,"2,0","2,0","1,0","3,0",,"3,0","3,0",,,"2,0","2,0","1,0",x,,,,,,"14,7",,,,,x,,"1. BA MEB, 2. BA Neubau (Wettbewerb)"
+02,Fr-Kr,VIII,02Gn01,G Oderstr./Gürtelstr.,,,,,,"4,0","4,0","4,0",,,,,"4,0",,,,,,,,"26,0",,x,,,,Machbarkeitsstudie wird beauftragt
+03,Pa,1,03G15,S Senefelderplatz,"4,0","1,0","5,0",,"5,0",,"5,0","1,0","1,0",,,,,,,,,,,,,,,,,,Erhöhung Kapazität durch 03S01
+03,Pa,2,03Gn02,G Cotheniusstr.,,"1,5","1,5","1,5","3,0",,"3,0","3,0",,,,"1,5","1,5",,,,,,"6,0",,"18,0",,,x,,,"Schnellbaumaßnahme, Variante: 2 BA"
+03,Pa,3,03G08,G am Planetarium,"2,5",,"2,5","2,5","5,0",,"5,0","2,5",,,"2,5",,,,,,,,,,"22,0",,,x,,,
+03,Pa,4,03G12,Paul-Lincke-G,"3,0","1,0","4,0",,"4,0",,"4,0","1,0",,,"1,0","1,0",,,,,,"3,5",,,,,,,,,
+03,Pa,4,03Gn05,Michelangelostr.,,,,,,"4,0","4,0","4,0",,,,,"4,0",,,,,,,,"26,0",,x,,,,"B-Plan erforderlich, Eigentumsverhältnisse"
+03,Pa,5,03G17,G am Weißen See,"3,0",,"3,0","1,0","4,0",,"4,0","1,0",,,"1,0",,,,,,,,,"16,6","1,9",,,,,x,"Ausbau und Erw.; ungeprüfte VPU- 18,5 Mio. €"
+"",,,,,,,,,,,,,,,,,,,,,,,,,,,x,x,,,
+"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"B-Plan erf., Eigentumsverh. Kosten einschl. ISS"
+03,Pa,5,03Gn16,G Rangierbahnhof Heinersdorf,,,,,,"4,0","4,0","4,0",,,,,"4,0",,,,,,,"61,5",,,,,,,
+"",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,03Kn05
+03,Pa,5,03Gn06,G Rennbahnstr.,,"1,5","1,5","2,5","4,0",,"4,0","4,0",,,,"1,5","2,5",,,,,,"6,0",,"20,0",,,x,,,"Schnellbaumaßnahme, Variante: 2 BA"
+03,Pa,6,03G14,Bornholmer-G,"4,0",,"4,0",,"4,0","1,0","5,0","1,0",,,"1,0",,,,,,,,,,"10,0",,x,x,,,"Erweiterung erforderlich, z.T. Kleingartenfläche"
+03,Pa,6,03Gn07,G Bhf. Pankow,,,,,,"3,0","3,0","3,0",,,,,"3,0",,,,,,,,"26,0",,x,x,,,"B-Plan erforderlich, Eigentumsverhältnisse"
+03,Pa,7,03G27,Elisabeth-Shaw-G,"2,5","1,0","3,5",,"3,5",,"3,5","1,0",,,"1,0","1,0",,,,,,"3,3",,,,,,,,,
+03,Pa,7,03G47,G a.d.Strauchwiese,"1,0","1,0","2,0",,"2,0",,"2,0","1,0",,,"1,0","1,0",,,,,,"3,3",,,,,,,,,
+03,Pa,8,03G28,G im Hasengrund,"2,5",,"2,5","1,0","3,5",,"3,5","1,0",,,"1,0",,,,,,,"1,7",,"5,4",,,,,,,
+03,Pa,8,03Gn,G Buchholzer Str. 3,,,,"3,0","3,0",,"3,0","3,0",,"3,0",,,,,,,,"3,9",,,,,,,,,
+03,Pa,9,03G21,G unter d. Bäumen,"2,5",,"2,5","1,0","3,5",,"3,5","1,0",,,"1,0",,,,,,,,,,"10,0",,,x,,,Bezirk prüft Erweiterung
+03,Pa,9,03Gn01,G Blankerb. Pflasterw.,,,,,,"3,0","3,0","3,0",,,,,"3,0",,,,,,,,"24,0",,x,,,,"B-Plan erforderlich, Gemeinschaftsschule möglich"
+03,Pa,9,03Gn03,G Heinersdorfer Str. 22,,,,,,"3,0","3,0","3,0",,,,,"3,0",,,,,,,,"24,0",,x,x,,,"B-Plan erforderlich, Gemeinschaftsschule möglich"
+03,Pa,9,03G33,J.-Barez-Sch.,"4,0",,"4,0","1,5","5,5",,"5,5","1,5",,,"1,5",,,,,,,,,"8,4","10,0",x,,,x,,"Erweiterung Hauptstr. Bedarfsprogramm = 18,4 Mio.€"
+03,Pa,10,03G23,G Alt Karow,"2,5",,"2,5",,"2,5","1,0","3,5","1,0",,,"1,0",,,,,,,,,,"6,0",,,,,,Bezirk plant Erweiterung
