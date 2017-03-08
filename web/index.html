@@ -116,7 +116,10 @@
 							marker.m = L.marker([marker.x, marker.y], {icon: icon});
 							marker.m
 								.addTo(map)
-								.bindPopup(html);
+								.bindPopup(html, {
+									autoPanPaddingTopLeft:[40,70],
+									autoPanPaddingBottomRight:[20,80]
+								});
 						})
 						setTimeout(start, 1);
 					}
