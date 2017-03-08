@@ -19,6 +19,14 @@
 				zoom: 13
 			});
 
+			var firstTouchIgnored = false;
+			$(document.body).on('touchstart', function (ev) {
+				if (firstTouchIgnored) return;
+				firstTouchIgnored = true;
+				ev.preventDefault();
+				return false;
+			})
+
 			L.control.attribution({position: 'bottomleft'}).addTo(map);
 
 			L.tileLayer('https://{s}.maps.dsst.io/berlin_tilemill_neu/{z}/{x}/{y}.png', {
