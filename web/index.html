@@ -189,8 +189,9 @@
 
 		#legend {
 			position: absolute;
-			right: 5px;
-			bottom: 5px;
+			right: 15px;
+			bottom: 15px;
+			max-width: calc(100% - 45px);
 			border-radius: 6px;
 			background: rgba(255,255,255,0.9);
 			box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
@@ -243,13 +244,18 @@
 				.leaflet-popup-content .prio1 {
 					color: #cc142a;
 				}
+				.keep {
+					white-space: nowrap;
+				}
 	</style>
 </head>
 <body>
 	<div id="wrapper"></div>
 		<div id="map"></div>
 		<div id="legend">
-			<img src="assets/leaflet/images/normal-icon-2x.png" width="12"> Schule mit Angabe zum Sanierungsbedarf &nbsp;  &nbsp;  &nbsp; <img src="assets/leaflet/images/prio-icon-2x.png" width="12"> Sanierungsbedarf mit höchster Priorität
+			<span class="keep"><img src="assets/leaflet/images/normal-icon-2x.png" width="12">Schule mit Angabe zum Sanierungsbedarf</span>
+			<span style="margin-right: 1em"></span>
+			<span class="keep"><img src="assets/leaflet/images/prio-icon-2x.png" width="12">Sanierungsbedarf mit höchster Priorität</span>
 		</div>
 		<div id="searchbox">
 			<input id="search"/>
