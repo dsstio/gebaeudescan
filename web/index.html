@@ -7,10 +7,6 @@
 	<script type="text/javascript" src="assets/easy-autocomplete/jquery.easy-autocomplete.min.js"></script>
 	<script type="text/javascript" src="assets/leaflet/leaflet.js"></script>
 	<script type="text/javascript">
-	/*
-		- Suche
-		*/
-
 
 		$(function () {
 			var map = L.map('map', {
@@ -116,7 +112,6 @@
 							var icon = iconNormal;
 							if (marker.prio1) icon = iconPrio;
 							else if (!totalMoney) icon = iconEmpty;
-							console.log(totalMoney);
 
 							marker.m = L.marker([marker.x, marker.y], {icon: icon});
 							marker.m
@@ -193,7 +188,7 @@
 
 			#searchbox ul li, #searchbox ul .eac-category {
 				background: inherit;
-				border: none
+				border: none;
 				display: block;
 				font-size: 12px;
 				font-weight: normal;
@@ -213,6 +208,7 @@
 			z-index: 1000;
 			font-family: sans-serif;
 			font-size: 12px;
+			pointer-events: none;
 		}
 
 			#legend img {
