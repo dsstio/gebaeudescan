@@ -21,7 +21,7 @@
 
 			L.control.attribution({position: 'bottomleft'}).addTo(map);
 
-			L.tileLayer('https://maps.dsst.io/berlin_tilemill_neu/{z}/{x}/{y}.png', {
+			L.tileLayer('https://{s}.maps.dsst.io/berlin_tilemill_neu/{z}/{x}/{y}.png', {
 				attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 			}).addTo(map);
 
@@ -159,7 +159,7 @@
 			display: none;
 		}
 			#search {
-				width: 400px;
+				width: 250px;
 				border-radius: 6px;
 				box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
 			}
@@ -208,7 +208,6 @@
 			.leaflet-popup-content p {
 				margin: 0;
 				padding: 0;
-				text-align: center;
 			}
 
 				.leaflet-popup-content p.name {
