@@ -64,7 +64,7 @@
 				var schulen = [];
 				markers.forEach(function (marker) {
 					marker.schulen.forEach(function (schule) {
-						schule.text = schule.schulname + ' - ' + schule.strasse + ', ' + schule.plz;
+						schule.text = schule.schulname + ' – ' + schule.strasse + ', ' + schule.plz;
 						schule.marker = marker;
 						schulen.push(schule);
 					})
@@ -249,6 +249,12 @@
 				}
 				.keep {
 					white-space: nowrap;
+				}
+				.easy-autocomplete-container ul li div {
+					word-break: normal;
+				}
+				.easy-autocomplete .selected {
+					background-color: rgb(200, 227, 238) !important;
 				}
 	</style>
 </head>
