@@ -45,6 +45,14 @@
 					popupAnchor:   [0, -16],
 					tooltipAnchor: [16, -28],
 				});
+				var iconEmpty = L.icon({
+					iconUrl:       'assets/images/icon-school-empty.png',
+					iconRetinaUrl: 'assets/images/icon-school-empty.png',
+					iconSize:      [24, 24],
+					iconAnchor:    [12, 12],
+					popupAnchor:   [0, -16],
+					tooltipAnchor: [16, -28],
+				});
 				var iconPrio = L.icon({
 					iconUrl:       'assets/images/icon-school-priority.png',
 					iconRetinaUrl: 'assets/images/icon-school-priority.png',
@@ -104,7 +112,13 @@
 									'</table>'
 								].join('')+'</div>';
 							}).join('');
-							marker.m = L.marker([marker.x, marker.y], {icon: marker.prio1 ? iconPrio : iconNormal});
+							var totalMoney = marker.schulen.reduce(function (sum, schule) { return sum + schule.gesamtkosten }, 0);
+							var icon = iconNormal;
+							if (marker.prio1) icon = iconPrio;
+							else if (!totalMoney) icon = iconEmpty;
+							console.log(totalMoney);
+
+							marker.m = L.marker([marker.x, marker.y], {icon: icon});
 							marker.m
 								.addTo(map)
 								.bindPopup(html);
@@ -262,7 +276,9 @@
 	<div id="wrapper"></div>
 		<div id="map"></div>
 		<div id="legend">
-			<span class="keep"><img src="assets/images/icon-school-normal.png" width="20">Schule mit Angabe zum Sanierungsbedarf</span>
+			<span class="keep"><img src="assets/images/icon-school-empty.png" width="20">kein Sanierungsbedarf</span>
+			<span style="margin-right: 1em"></span>
+			<span class="keep"><img src="assets/images/icon-school-normal.png" width="20">Sanierungsbedarf</span>
 			<span style="margin-right: 1em"></span>
 			<span class="keep"><img src="assets/images/icon-school-priority.png" width="20">Sanierungsbedarf mit höchster Priorität</span>
 		</div>
